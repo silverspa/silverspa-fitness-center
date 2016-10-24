@@ -13,16 +13,16 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 
 	/* Great Vibes */
 	@import url(http://fonts.googleapis.com/css?family=Great+Vibes);
-	
+
 	/* Alegreya Sans */
 	@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:400,300);
-	
+
 	/* Open Sans */
 	@import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700,800);
 
 	/* Open Sans Condensed */
 	@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
-	
+
 
 /* Main Styles */
 	.pro-bars{
@@ -47,14 +47,14 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	}
 
 	body{
-		overflow-x: hidden; 
+		overflow-x: hidden;
 	}
 
 	img {
-	    -moz-user-select: none; 
+	    -moz-user-select: none;
 	    -webkit-user-select: none;
-	    -ms-user-select: none; 
-	    user-select: none; 
+	    -ms-user-select: none;
+	    user-select: none;
 	    -webkit-user-drag: none;
 	    user-drag: none;
 	}
@@ -66,7 +66,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	{
 		text-decoration:none;
 		outline:none;
-	
+
 	}
 	.lead{
 		font-family: 'Open Sans', sans-serif;
@@ -105,7 +105,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 		outline:none;
 	}
 
-/* Font Classes */	
+/* Font Classes */
 
 	.condensed{
 		font-family: 'Open Sans Condensed', sans-serif;
@@ -267,7 +267,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	.white{
 		color:white;
 	}
-	
+
 	.black{
 		color:black;
 	}
@@ -279,7 +279,18 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	.gray2{
 		color:#999999;
 	}
-	
+
+	.paul1{
+		color:#0734f2;
+	}
+
+	.paul2{
+		color:#4bf207;
+		font-weight: bold;
+		font-size: 160%;
+		font-style: oblique;
+	}
+
 	.gray3{
 		color:#111;
 	}
@@ -312,18 +323,18 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 		border-right-color: #8BC3A3;
 	}
 
-	.white-bg{ 
+	.white-bg{
 		background-color:white !important;
 	}
 
 	.gray-bg{
 		background-color:#f5f5f5 !important;
 	}
-	
+
 	.semidarkgray-bg{
 		background-color:#4d4d4d !important;
 	}
-	
+
 	.darkgray-bg{
 		background-color:#333333 !important;
 	}
@@ -331,7 +342,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	.black-bg{
 		background-color:222222 !important;
 	}
-	
+
 /* Home Section */
 
 	.arrow-down {
@@ -378,7 +389,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 		-moz-transform: translateY(-50%);
 		transform: translateY(-50%);
 	}
-	
+
 	#home .v2 .typographic .logo{
 		padding:25px 0;
 	}
@@ -418,11 +429,11 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	#slides .slides-container .image2{
 		background-image:url(../images/4.jpg);
 	}
-	
+
 	#slides .slides-container .image3{
 		background-image:url(../images/3.jpg);
 	}
-	
+
 	#slides .slides-container .image4{
 		background-image:url(../images/1.jpg);
 	}
@@ -481,7 +492,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	}
 
 /* Navigation */
-	
+
 	#navigation{
 		position: fixed;
 		width: 100%;
@@ -530,12 +541,12 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	.white-nav .site-logo a.logo{
 		color:#111;
 		display: block;
-	}	
-	
+	}
+
 	.dark-nav .site-logo a.logo{
 		color:#fff;
 		display: block;
-	}	
+	}
 
 	.site-logo a.logo img{
 		height: auto;
@@ -562,13 +573,13 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 		-moz-transform: translateY(-50%);
 		transform: translateY(-50%);
 	}
-	
+
 	#navigation .mini-nav-button:hover{
 		color:#8BC3A3;
 		-webkit-transition: all 0.3s;
 		-moz-transition: all 0.3s;
 		transition: all 0.3s;
-	}	
+	}
 
 	.nav-menu{
 		float: right;
@@ -608,15 +619,15 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 		background:#222;
 		color:#8BC3A3;
 	}
-	
+
 	.dark-nav .nav li.active a{
 		color:#8BC3A3;
 	}
-	
+
 	.dark-nav .nav li a:focus{
 		background:#8BC3A3;
 		color:#fff !important;
-	}	
+	}
 
 /* About */
    @media (min-width:600px) and (max-width:1020px){
@@ -656,7 +667,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 		content:'';
 		z-index: 1;
 		position: absolute;
-		background: #8BC3A3;		
+		background: #8BC3A3;
 		border: none;
 		border-radius:50%;
 		top:-1px;
@@ -809,7 +820,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	}
 
 /* Features */
-	
+
 	.f-box{
 		text-align:center;
 		cursor: default;
@@ -847,7 +858,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	.f-box:hover .f-icon i {
 		background: rgba(255, 255, 255, 0.25);
 	}
-	
+
 	#features{
 		background:#333 url(../images/parallax/3.jpg) repeat;
 	}
@@ -858,7 +869,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	.carousel-indicators {
 		position: absolute;
 		bottom: 0px !important;
-		}	
+		}
 
 	.testimonials{
 		background: url(../images/parallax/2.jpg) center center fixed;
@@ -879,7 +890,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	.t-slides li.monial{
 		position: absolute;
 		height: auto;
-		
+
 	}
 
 	.t-slides li.monial:last-child:after{
@@ -898,7 +909,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 		text-align: center;
 }
 
-/* Testimonial Controls */	
+/* Testimonial Controls */
 
 	.testimonials .flex-direction-nav{
 		width:52px;
@@ -946,7 +957,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	}
 
 /* Text Area */
-	
+
 	#blockquote{
 		background:#518768;
 		padding:45px 0 35px 0;
@@ -957,10 +968,10 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	#blockquote p.blockquote{
 		font-size:44px;
 	}
-	
+
 	#blockquote i.fa{
 		padding-left:40px;
-	}	
+	}
 
 
 /* Team */
@@ -1085,7 +1096,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 		height: 150px;
 		padding:0;
 	}
-	
+
 	#fun-acts{
 		background:#333 url(../images/bgd/background5.jpg) repeat;
 	}
@@ -1218,7 +1229,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 		max-height: 200px;
 		max-width: 100%;
 	}
-	
+
 /* Generic Button Styles */
 
 	.button{
