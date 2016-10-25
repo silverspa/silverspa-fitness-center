@@ -707,8 +707,8 @@
 .fa-cloud:before {
   content: "\f0c2";
 }
-.fa-flask:before {
-  content: "\f0c3";
+.fa-cog:before {
+  content: "\f013";
 }
 .fa-cut:before,
 .fa-scissors:before {
@@ -921,8 +921,8 @@
 .fa-laptop:before {
   content: "\f109";
 }
-.fa-tablet:before {
-  content: "\f10a";
+.fa-heart:before {
+  content: "\f004";
 }
 .fa-mobile-phone:before,
 .fa-mobile:before {
